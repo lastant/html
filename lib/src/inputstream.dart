@@ -26,7 +26,7 @@ class HtmlInputStream {
   static const int numBytesMeta = 512;
 
   /// Encoding to use if no other information can be found.
-  static const String defaultEncoding = 'windows-1252';
+  static const String defaultEncoding = 'utf-8';
 
   /// The name of the character encoding.
   String charEncodingName;
